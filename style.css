@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin:0;
+	padding:0;
+	}
+
+.head {
+	background-color: darkgrey;
+}
+
+img {
+	margin: 0;
+	width:100%;
+}
+
+
+.text-logo {
+	position: absolute;
+	z-index:2;
+}
+
+.text-block {
+ 	position: absolute;
+  	top: 300px;
+  	right :400px;
+	left:400px;
+	color: lightgrey;
+	font-size: 50px;
+}
+
+.container {
+	position: absolute;
+	
+	
+}
+
+h1, h3, .p{
+	text-align: center;
+}
+
+.site-nav ul {
+  list-style-type:none;
+  margin: 0;
+  text-align: right;
+}
+.site-nav ul li {
+  	display: inline-block;
+ 	 margin-bottom: 0;
+ 	 margin-left: 0;
+	font-size: 25px;
+	font-kerning: auto;
+	letter-spacing: .2em;
+	word-spacing: .1em;
+	margin: 0 30px;
+}
+
+.site-nav ul li a {
+	text-decoration: none;
+	color:black;
+}
+
+.site-nav ul li a:hover {
+	outline: outset;
+	font-size: 30px;
+	color: lightgrey;
+	background-color:black;
+		
+}
+
+.icons a {
+	
+	display:inline-block;
+	width:100px;
+	height:100px;
+	margin:10px 50px;
+}
+
+.left-side {
+	float: left;
+	margin-left: 50px;
+}
+
+.right-side {
+	float: right;
+	margin-right: 50px;
+}
+
+.left-side img {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+
+.center {
+	
+	font-size: 30px;
+	display:inline-block
+}
+
+/*back to top button*/
+#mybtn {
+	display: none; /*hidden by default*/
+	position: fixed; /*fixed sticky position*/
+	bottom: 20px; /*place button at bottom of page*/
+	right: 30px; /*button 30px from right side*/
+	z-index: 99; /*make sure it does not overlap*/
+	border: none;
+	outline: none;
+	background-color: lightgrey;
+	color: black;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 10px;
+}
+
+#mybtn:hover {
+	background-color:#555
+}
+/*finish back to top button*/
+
+.aff{
+	text-align: left;
+	line-height: 1.5;
+	
+}
+
+
+
+
+.footer {
+	text-align: center;
+	background-color:darkgrey;
+	width: auto;
+	height: 150px;
+	margin: 0;
+}
